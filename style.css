@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "pinky";
+    src: url("asset/media/font/PinkyCupid-axYK5.ttf")
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(asset/media/fondo1.0.jpg);
+    min-height: 100vh;
+}
+
+.cabeza {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.cabeza .logo-lollypop{
+    
+}
+.cabeza .lista-menu{
+
+    display: flex;
+    margin-top: 80px;
+    list-style: none;
+    
+}
+
+.cabeza .lista-menu a{
+
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "roboto";
+    margin-right: 25px;
+    
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuerpo .caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.caja .titulo {
+    font-family: "roboto";
+    font-size: 70px;
+    margin-bottom: 50px;
+
+}
+
+.caja .kiss {
+    margin: 0 auto;
+    margin-bottom:50px ;
+}
+
+.caja .click {
+
+    width: 240px;
+    height: 60px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #D083FF;
+    box-shadow: 0px 10px 10px -6px;
+}
+
+.caja .click > a {
+    font-size: 40px;
+    text-decoration: none;
+    color: aliceblue;
+}
