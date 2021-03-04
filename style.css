@@ -197,3 +197,99 @@ body {
     box-shadow: 0px 10px 10px -6px;
 }
 
+.contact {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #D083FF;
+    display: flex;
+    flex-direction: column;
+}
+.contact .contH2 {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contH2 > h2 {
+    font-family: "pinky";
+    font-size: 100px;
+    color: crimson;
+    text-shadow: 0px 10px 10px  cornsilk;
+}
+
+.contact .contentForm {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+
+.contact .contentForm .left {
+    flex: 50%;
+    
+}
+
+.contact .contentForm .left > iframe {
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px -6px;
+}
+
+.contact .contentForm .right {
+    flex: 50%;
+}
+
+.contact .contentForm .right >form {
+
+    display: flex;
+    margin-top: 100px;
+    max-width: 50%;
+    flex-direction: column;
+
+
+}
+
+.contact .contentForm .right >form >input {
+
+    width: 90%;
+    height: 35px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color:#d7abf1b4 ;
+}
+
+.contact .contentForm .right >form >textarea {
+
+    border: none;
+    width: 90%;
+    height: 85px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color:#d7abf1b4 ;
+
+}
+
+.contact .contentForm .right >form > ::placeholder {
+
+    text-align: center;
+    color: ghostwhite;
+    font-size: 20px;
+}
+
+.contact .contentForm .right >form > .envio {
+
+    width: 50%;
+    background-color: brown;
+    color: cornsilk;
+    font-size: 20px;
+    margin-top: 10px;
+    margin:20px auto;
+    box-shadow: 0px 10px 10px -6px;
+    cursor: pointer;
+}
