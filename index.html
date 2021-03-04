@@ -8,32 +8,33 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
     <main class="container">
-        <div class="cabeza">
+        <div class="cabeza" id="inicio">
             <img src="asset/media/logo_final.png" alt="logo-lollypop" width="192px" height="184px" class="logotipo">
             <ul class="lista-menu">
-                <li><a href="#">inicio</a></li>
-                <li><a href="">Productos</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">Contacto</a></li>
+                <li><a href="#inicio">inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </div>
         <div class="cuerpo">
             <div class="caja">
             <h1 class="titulo">Una explosion de Sabores !!!!</h1>
            <img src="asset/media/kissMe.png" alt="KissMe" width="325px" height="297px" class="kiss">
-           <button class="click"><a href="">Click me!!</a></button>
+           <button class="click"><a href="#productos">Click me!!</a></button>
         </div>
         </div>
 
     </main>
     <section class="part2">
         <div class="tittle">
-            <h2 class="catalogo">Productos</h2>
+            <h2 class="catalogo" id="productos">Productos</h2>
         </div>
-        <div class="contenedor">
+        <div class="contenedor" >
             <div class="chupachups">
                 <img src="asset/media/producto-principal.jpg" alt="chupaChups" width="310px" height="361px" class="chups">
             </div>
@@ -49,7 +50,7 @@
     </section>
     <section class="gallery">
         <div class="gaTi">
-            <h2 class="galleryTitulo">gallery</h2>
+            <h2 class="galleryTitulo" id="gallery">gallery</h2>
         </div>
         <div class="galleryFotos">
             <img src="asset/media/carrusel-1.jpg" alt="" width="300px" height="500px">
@@ -59,7 +60,7 @@
     </section>
     <section class="contact">
         <div class="contH2">
-            <h2>contacto</h2>
+            <h2 id="contacto">contacto</h2>
         </div>
         <div class="contentForm">
             <div class="left">
@@ -77,7 +78,9 @@
         </div>
     </section>
     <footer class="pie">
-
+            <a href=""><i class="fab fa-github"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-facebook"></i></a>
     </footer>
     
 </body>
